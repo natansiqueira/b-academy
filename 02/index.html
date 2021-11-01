@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <div data-js="container"></div>
+
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- jsx -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  
+  <!-- add text/babel type to support jsx (only in development) -->
+  <script type="text/babel">
+    /* const h1 = React.createElement(
+      'h1', 
+      { id: 'title', 'data-js': 'titulo-js' },
+      React.createElement('span', null, 'Bootcamp '),
+      React.createElement('b', null, 'React')
+    )
+    */
+
+    // with JSX we can write a syntax similar to the final HTML instead of
+    // using JS functions using the global React objects
+    // instead of using React.createElement(...) we use the html tag itself
+    const h1 = (
+      <h1 id='title' data-js='titulo-js'>
+        <span>Bootcamp </span>
+        <b>React</b>
+      </h1>
+    )
+    
+    // we get a react.element which is part of the React Virtual DOM
+    // react doesn't use the DOM directly
+    console.log(h1)
+    const container = document.querySelector('[data-js="container"]')
+    ReactDOM.render(h1, container)
+  </script>
+</body>
+</html>
