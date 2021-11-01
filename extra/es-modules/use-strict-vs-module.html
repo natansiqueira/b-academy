@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Use Strict vs ES Modules</title>
+</head>
+<body>
+  <script>
+    // global scope
+    // this points towards a global object
+    const a = 'value from a normal script'
+    function main() {
+      // use strict makes this undefined on blocks
+      'use strict'
+      console.log('use strict')
+      console.log('this:', this)
+    }
+
+    main()
+  </script>
+
+  <script>
+    // normal scripts still have a global scope    
+    console.log('message:', a)
+  </script>
+
+  <script type="module">
+    // local scope
+    const b = 'value from a module'
+    console.log('module')
+    console.log('this:', this)
+  </script>
+
+ <script>
+    // ReferenceError, we can't access a value directly from a module
+    console.log('message', b) 
+ </script>
+</body>
+</html>
