@@ -18,6 +18,9 @@ I didn't participate of the official bootcamp but I've implemented all examples,
   * CRA is like an awesome start point where we can get our hands dirty instead of thiking about configuration files, dev packages, etc
 * [Exploring Create React App](/04)
 * [DevTools, custom components and Fragment](/05)
+  * Custom components are functions
+  * We need to wrap our siblings tags with a parent tag
+  * We can use Fragment to wrap our sibling children and don't render the parent
 * [Props and Attributes](/06)
   * Props are the state of a component received as an argument
   * Components can receive arguments like a function
