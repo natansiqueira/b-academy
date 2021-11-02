@@ -24,3 +24,6 @@ I didn't participate of the official bootcamp but I've implemented all examples,
 * [Props and Attributes](/06)
   * Props are the state of a component received as an argument
   * Components can receive arguments like a function
+* [Children prop and component composition](/07)
+  * We can access the content of a tag using the children prop
+  * We can have components inside components allowing us to connect components to build our interface
