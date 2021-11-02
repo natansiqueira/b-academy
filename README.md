@@ -17,4 +17,7 @@ I didn't participate of the official bootcamp but I've implemented all examples,
   * We also have scripts to run a dev server with hot-reload, build our application, etc
   * CRA is like an awesome start point where we can get our hands dirty instead of thiking about configuration files, dev packages, etc
 * [Exploring Create React App](/04)
-* [DevTools, custom components and Fragment](/05) 
+* [DevTools, custom components and Fragment](/05)
+* [Props and Attributes](/06)
+  * Props are the state of a component received as an argument
+  * Components can receive arguments like a function
