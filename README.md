@@ -11,4 +11,10 @@ I didn't participate of the official bootcamp but I've implemented all examples,
 * [Introduction to React](/01)
 * [JSX and Virtual DOM](/02)
 * [Create React App](/03)
+  * [Offical docs](https://create-react-app.dev/)
+  * I'm using yarn so I use `yarn create react-app app-name`
+  * It comes with Webpack config built-in so we can use a lot of features like import css files, use JSX, etc
+  * We also have scripts to run a dev server with hot-reload, build our application, etc
+  * CRA is like an awesome start point where we can get our hands dirty instead of thiking about configuration files, dev packages, etc
 * [Exploring Create React App](/04)
+* [DevTools, custom components and Fragment](/05) 
