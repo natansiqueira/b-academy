@@ -8,6 +8,11 @@ I didn't participate of the official bootcamp but I've implemented all examples,
 
 # Contents
 
+Each folder has an example with comments
+
+* [Challenge 1](/challenges/challenge-01)
+  * Simple layout to pratice component composition
+
 * [Introduction to React](/01)
 * [JSX and Virtual DOM](/02)
 * [Create React App](/03)
@@ -29,3 +34,4 @@ I didn't participate of the official bootcamp but I've implemented all examples,
   * We can have components inside components allowing us to connect components to build our interface
 * [Arrays and key prop](/08)
 * [Events](/09)
+* [State](/10)
