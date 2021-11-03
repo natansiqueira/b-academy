@@ -28,3 +28,4 @@ I didn't participate of the official bootcamp but I've implemented all examples,
   * We can access the content of a tag using the children prop
   * We can have components inside components allowing us to connect components to build our interface
 * [Arrays and key prop](/08)
+* [Events](/09)
